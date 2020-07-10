@@ -1,0 +1,4975 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/Germany.js"></script>
+
+</head>
+<body>
+    <div id="34b00d3b53ac4db085e5cd6ad2870b5f" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_34b00d3b53ac4db085e5cd6ad2870b5f = echarts.init(
+            document.getElementById('34b00d3b53ac4db085e5cd6ad2870b5f'), 'white', {renderer: 'canvas'});
+        var option_34b00d3b53ac4db085e5cd6ad2870b5f = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "effectScatter",
+                "coordinateSystem": "geo",
+                "showEffectOn": "render",
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                },
+                "symbolSize": 12,
+                "data": [
+                    {
+                        "name": "Berlin",
+                        "value": [
+                            13.4,
+                            52.52,
+                            1
+                        ]
+                    },
+                    {
+                        "name": "Frankfurt",
+                        "value": [
+                            8.68,
+                            50.11,
+                            1
+                        ]
+                    },
+                    {
+                        "name": "Muechen",
+                        "value": [
+                            11.58,
+                            48.14,
+                            1
+                        ]
+                    },
+                    {
+                        "name": "Hamburg",
+                        "value": [
+                            9.99,
+                            53.55,
+                            1
+                        ]
+                    },
+                    {
+                        "name": "Bremen",
+                        "value": [
+                            8.8,
+                            53.08,
+                            1
+                        ]
+                    },
+                    {
+                        "name": "Dresden",
+                        "value": [
+                            13.44,
+                            51.02,
+                            1
+                        ]
+                    },
+                    {
+                        "name": "Hannover",
+                        "value": [
+                            9.43,
+                            52.22,
+                            1
+                        ]
+                    },
+                    {
+                        "name": "Koeln",
+                        "value": [
+                            6.58,
+                            50.56,
+                            1
+                        ]
+                    },
+                    {
+                        "name": "Mainz",
+                        "value": [
+                            8.16,
+                            50.0,
+                            1
+                        ]
+                    },
+                    {
+                        "name": "Stuttgart",
+                        "value": [
+                            9.11,
+                            48.47,
+                            1
+                        ]
+                    }
+                ],
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                }
+            },
+            {
+                "type": "lines",
+                "name": "ICE tracks",
+                "coordinateSystem": "geo",
+                "zlevel": 3,
+                "progressive": 400,
+                "progressiveThreshold": 3000,
+                "effect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4,
+                    "color": "blue",
+                    "symbol": "arrow",
+                    "symbolSize": 6
+                },
+                "symbol": [
+                    "none",
+                    "arrow"
+                ],
+                "polyline": false,
+                "large": false,
+                "largeThreshold": 2000,
+                "symbolSize": 6,
+                "data": [
+                    {
+                        "name": "Berlin->Hamburg",
+                        "coords": [
+                            [
+                                13.4,
+                                52.52
+                            ],
+                            [
+                                9.99,
+                                53.55
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "Hannover->Berlin",
+                        "coords": [
+                            [
+                                9.43,
+                                52.22
+                            ],
+                            [
+                                13.4,
+                                52.52
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "Stuttgart->Frankfurt",
+                        "coords": [
+                            [
+                                9.11,
+                                48.47
+                            ],
+                            [
+                                8.68,
+                                50.11
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "Bremen->Hannover",
+                        "coords": [
+                            [
+                                8.8,
+                                53.08
+                            ],
+                            [
+                                9.43,
+                                52.22
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "Hamburg->Berlin",
+                        "coords": [
+                            [
+                                9.99,
+                                53.55
+                            ],
+                            [
+                                13.4,
+                                52.52
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "Hamburg->Hannover",
+                        "coords": [
+                            [
+                                9.99,
+                                53.55
+                            ],
+                            [
+                                9.43,
+                                52.22
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "Mainz->Stuttgart",
+                        "coords": [
+                            [
+                                8.16,
+                                50.0
+                            ],
+                            [
+                                9.11,
+                                48.47
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "Muechen->Stuttgart",
+                        "coords": [
+                            [
+                                11.58,
+                                48.14
+                            ],
+                            [
+                                9.11,
+                                48.47
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "Frankfurt->Stuttgart",
+                        "coords": [
+                            [
+                                8.68,
+                                50.11
+                            ],
+                            [
+                                9.11,
+                                48.47
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "Frankfurt->Mainz",
+                        "coords": [
+                            [
+                                8.68,
+                                50.11
+                            ],
+                            [
+                                8.16,
+                                50.0
+                            ]
+                        ]
+                    },
+                    {
+                        "name": "Frankfurt->Koeln",
+                        "coords": [
+                            [
+                                8.68,
+                                50.11
+                            ],
+                            [
+                                6.58,
+                                50.56
+                            ]
+                        ]
+                    }
+                ],
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0.2,
+                    "type": "solid"
+                },
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "9-12",
+                "10-13",
+                "11-14",
+                "12-15",
+                "13-16",
+                "14-17",
+                "15-18",
+                "16-19",
+                "17-20",
+                "18-21",
+                "19-22",
+                "20-23"
+            ]
+        },
+        "geo": {
+            "map": "\u5fb7\u56fd",
+            "roam": true,
+            "emphasis": {}
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Hannover->Bremen",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    8.8,
+                                    53.08
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Mainz->Frankfurt",
+                            "coords": [
+                                [
+                                    8.16,
+                                    50.0
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Frankfurt",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 9-12 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Hannover->Berlin",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Bremen",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    8.8,
+                                    53.08
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hamburg",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Mainz->Frankfurt",
+                            "coords": [
+                                [
+                                    8.16,
+                                    50.0
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Mainz",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Frankfurt",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 10-13 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Berlin->Hannover",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Berlin",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Bremen",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    8.8,
+                                    53.08
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hamburg",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Koeln",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Mainz->Frankfurt",
+                            "coords": [
+                                [
+                                    8.16,
+                                    50.0
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Berlin",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Hannover",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Stuttgart",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Mainz",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Stuttgart",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 11-14 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Berlin->Hannover",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Berlin",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Bremen",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    8.8,
+                                    53.08
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hamburg",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Koeln",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Mainz->Koeln",
+                            "coords": [
+                                [
+                                    8.16,
+                                    50.0
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Muechen->Stuttgart",
+                            "coords": [
+                                [
+                                    11.58,
+                                    48.14
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Stuttgart",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Mainz",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 12-15 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Berlin->Hannover",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Berlin",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Bremen",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    8.8,
+                                    53.08
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hamburg",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Mainz->Koeln",
+                            "coords": [
+                                [
+                                    8.16,
+                                    50.0
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Berlin",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Hannover",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Stuttgart",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Mainz",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Frankfurt",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Stuttgart",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 13-16 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Berlin->Hannover",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Berlin->Hamburg",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Berlin",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Bremen",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    8.8,
+                                    53.08
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart->Frankfurt",
+                            "coords": [
+                                [
+                                    9.11,
+                                    48.47
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hamburg",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Hannover",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Stuttgart",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Mainz",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Frankfurt",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 14-17 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Berlin->Hannover",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Berlin->Hamburg",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Berlin",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Bremen",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    8.8,
+                                    53.08
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart->Frankfurt",
+                            "coords": [
+                                [
+                                    9.11,
+                                    48.47
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hamburg",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Berlin",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Stuttgart",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Mainz",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Berlin",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Stuttgart",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Mainz",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 15-18 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Berlin->Hannover",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Berlin->Hamburg",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Berlin",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Bremen",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    8.8,
+                                    53.08
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart->Muechen",
+                            "coords": [
+                                [
+                                    9.11,
+                                    48.47
+                                ],
+                                [
+                                    11.58,
+                                    48.14
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart->Frankfurt",
+                            "coords": [
+                                [
+                                    9.11,
+                                    48.47
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hamburg",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Berlin",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Koeln",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Hannover",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Stuttgart",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Mainz",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Hamburg",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Mainz",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Frankfurt",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 16-19 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Berlin->Hannover",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Berlin->Hamburg",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Berlin",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Bremen",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    8.8,
+                                    53.08
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hamburg",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Berlin",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Muechen->Stuttgart",
+                            "coords": [
+                                [
+                                    11.58,
+                                    48.14
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Stuttgart",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Mainz",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Berlin",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Frankfurt",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 17-20 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Berlin->Hannover",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Berlin->Hamburg",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Berlin",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart->Frankfurt",
+                            "coords": [
+                                [
+                                    9.11,
+                                    48.47
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hamburg",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Muechen->Stuttgart",
+                            "coords": [
+                                [
+                                    11.58,
+                                    48.14
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Hannover",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Stuttgart",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Mainz",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Mainz",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Frankfurt",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Dresden->Berlin",
+                            "coords": [
+                                [
+                                    13.44,
+                                    51.02
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 18-21 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Berlin->Hamburg",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Berlin",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart->Frankfurt",
+                            "coords": [
+                                [
+                                    9.11,
+                                    48.47
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hamburg",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Berlin",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Muechen->Stuttgart",
+                            "coords": [
+                                [
+                                    11.58,
+                                    48.14
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Hannover",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Stuttgart",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Mainz",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Berlin",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Mainz",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Koeln->Stuttgart",
+                            "coords": [
+                                [
+                                    6.58,
+                                    50.56
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 19-22 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "",
+                        "ICE tracks"
+                    ],
+                    "selected": {
+                        "": true,
+                        "ICE tracks": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "effectScatter",
+                    "coordinateSystem": "geo",
+                    "showEffectOn": "render",
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "symbolSize": 12,
+                    "data": [
+                        {
+                            "name": "Berlin",
+                            "value": [
+                                13.4,
+                                52.52,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "value": [
+                                8.68,
+                                50.11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Muechen",
+                            "value": [
+                                11.58,
+                                48.14,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hamburg",
+                            "value": [
+                                9.99,
+                                53.55,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Bremen",
+                            "value": [
+                                8.8,
+                                53.08,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Dresden",
+                            "value": [
+                                13.44,
+                                51.02,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Hannover",
+                            "value": [
+                                9.43,
+                                52.22,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Koeln",
+                            "value": [
+                                6.58,
+                                50.56,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Mainz",
+                            "value": [
+                                8.16,
+                                50.0,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart",
+                            "value": [
+                                9.11,
+                                48.47,
+                                1
+                            ]
+                        }
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "lines",
+                    "name": "ICE tracks",
+                    "coordinateSystem": "geo",
+                    "zlevel": 3,
+                    "progressive": 400,
+                    "progressiveThreshold": 3000,
+                    "effect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4,
+                        "color": "blue",
+                        "symbol": "arrow",
+                        "symbolSize": 6
+                    },
+                    "symbol": [
+                        "none",
+                        "arrow"
+                    ],
+                    "polyline": false,
+                    "large": false,
+                    "largeThreshold": 2000,
+                    "symbolSize": 6,
+                    "data": [
+                        {
+                            "name": "Berlin->Hamburg",
+                            "coords": [
+                                [
+                                    13.4,
+                                    52.52
+                                ],
+                                [
+                                    9.99,
+                                    53.55
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hannover->Berlin",
+                            "coords": [
+                                [
+                                    9.43,
+                                    52.22
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Stuttgart->Frankfurt",
+                            "coords": [
+                                [
+                                    9.11,
+                                    48.47
+                                ],
+                                [
+                                    8.68,
+                                    50.11
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Bremen->Hannover",
+                            "coords": [
+                                [
+                                    8.8,
+                                    53.08
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Berlin",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    13.4,
+                                    52.52
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Hamburg->Hannover",
+                            "coords": [
+                                [
+                                    9.99,
+                                    53.55
+                                ],
+                                [
+                                    9.43,
+                                    52.22
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Mainz->Stuttgart",
+                            "coords": [
+                                [
+                                    8.16,
+                                    50.0
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Muechen->Stuttgart",
+                            "coords": [
+                                [
+                                    11.58,
+                                    48.14
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Stuttgart",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    9.11,
+                                    48.47
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Mainz",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    8.16,
+                                    50.0
+                                ]
+                            ]
+                        },
+                        {
+                            "name": "Frankfurt->Koeln",
+                            "coords": [
+                                [
+                                    8.68,
+                                    50.11
+                                ],
+                                [
+                                    6.58,
+                                    50.56
+                                ]
+                            ]
+                        }
+                    ],
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0.2,
+                        "type": "solid"
+                    },
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "ICE Tracks during 20-23 Time Period",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "blue",
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_34b00d3b53ac4db085e5cd6ad2870b5f.setOption(option_34b00d3b53ac4db085e5cd6ad2870b5f);
+    </script>
+</body>
+</html>

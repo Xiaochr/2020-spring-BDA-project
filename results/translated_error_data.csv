@@ -1,0 +1,173 @@
+,0,1,En
+0, Ersatzfahrt für ICE   79@@Grund: Signalstörung,21,Replacement run for ICE 79 @@ Reason: signal interference
+1, Ersatzfahrt für ICE  504,3,Replacement trip for ICE 504
+2, Ersatzfahrt für ICE  504@@Gleiswechsel,1,Replacement run for ICE 504 @@ track change
+3, Ersatzfahrt für ICE  506,1,Replacement run for ICE 506
+4, Ersatzfahrt für ICE  506@@Grund: Bauarbeiten,5,Replacement trip for ICE 506 @@ reason: construction work
+5, Ersatzfahrt für ICE  572@@Grund: Technische Störung an der Strecke,14,Replacement trip for ICE 572 @@ Reason: technical fault on the route
+6, Ersatzfahrt für ICE  572@@Grund: Technische Störung an der Strecke@@Gleiswechsel,5,Replacement trip for ICE 572 @@ reason: technical fault on the route @@ track change
+7, Ersatzfahrt für ICE  572@@Grund: Technische Störung an einem anderen Zug,9,Replacement trip for ICE 572 @@ Reason: Technical malfunction on another train
+8, Ersatzfahrt für ICE  575@@Grund: Technische Störung am Zug,3,Replacement trip for ICE 575 @@ Reason: Technical fault on the train
+9, Ersatzfahrt für ICE  575@@Grund: Technische Störung am Zug@@Gleiswechsel,4,Replacement trip for ICE 575 @@ Reason: Technical fault on the train @@ change of track
+10, Ersatzfahrt für ICE  575@@Grund: Technische Störung an einem anderen Zug@@Gleiswechsel,1,Replacement trip for ICE 575 @@ Reason: technical fault on another train @@ change of track
+11, Ersatzfahrt für ICE  575@@Grund: Verzögerungen im Betriebsablauf,2,Replacement trip for ICE 575 @@ Reason: delays in the operational process
+12, Ersatzfahrt für ICE  576@@Grund: Technische Störung am Zug,8,Replacement trip for ICE 576 @@ Reason: Technical fault on the train
+13, Ersatzfahrt für ICE  576@@Grund: Technische Störung am Zug@@Gleiswechsel,11,Replacement trip for ICE 576 @@ Reason: Technical fault on the train @@ change of track
+14, Ersatzfahrt für ICE  576@@Grund: Verzögerungen im Betriebsablauf,7,Replacement trip for ICE 576 @@ Reason: delays in the operational process
+15, Ersatzfahrt für ICE  577@@Grund: Verzögerungen im Betriebsablauf,34,Replacement trip for ICE 577 @@ Reason: Delays in the operational process
+16, Ersatzfahrt für ICE  578,2,Replacement trip for ICE 578
+17, Ersatzfahrt für ICE  578@@Grund: Warten auf Fahrgäste aus einem anderen Zug,8,Replacement trip for ICE 578 @@ reason: waiting for passengers from another train
+18, Ersatzfahrt für ICE  578@@Grund: Warten auf Fahrgäste aus einem anderen Zug@@Gleiswechsel,5,Replacement trip for ICE 578 @@ reason: waiting for passengers from another train @@ change of track
+19, Ersatzfahrt für ICE  587@@Grund: Verspätete Bereitstellung des Zuges,13,Replacement trip for ICE 587 @@ Reason: The train is late
+20, Ersatzfahrt für ICE  623@@Grund: Verzögerungen im Betriebsablauf,2,Replacement trip for ICE 623 @@ Reason: delays in the operational process
+21, Ersatzfahrt für ICE  786,2,Replacement run for ICE 786
+22, Ersatzfahrt für ICE  786@@Grund: Verspätete Bereitstellung des Zuges,7,Replacement trip for ICE 786 @@ Reason: Delayed provision of the train
+23, Ersatzfahrt für ICE  786@@Grund: Verspätete Bereitstellung des Zuges@@Gleiswechsel,1,Replacement trip for ICE 786 @@ Reason: Delayed provision of the train @@ change of track
+24, Ersatzfahrt für ICE  973@@Grund: Verspätung eines vorausfahrenden Zuges,8,Replacement trip for ICE 973 @@ reason: delay of a train in front
+25, Ersatzfahrt für ICE  973@@Grund: Verspätung eines vorausfahrenden Zuges@@Gleiswechsel,3,Replacement trip for ICE 973 @@ reason: delay of a train in front @@ change of track
+26, Ersatzfahrt für ICE  974@@Grund: Verspätung aus vorheriger Fahrt,4,Replacement trip for ICE 974 @@ Reason: delay due to previous trip
+27, Ersatzfahrt für ICE  974@@Grund: Verspätung aus vorheriger Fahrt@@Gleiswechsel,1,Alternative trip for ICE 974 @@ reason: delay due to previous trip @@ change of track
+28, Ersatzfahrt für RE 11324,6,Replacement run for RE 11324
+29, Ersatzfahrt für RE 11326,2,Replacement run for RE 11326
+30, Ersatzfahrt für S      3,1,Replacement trip for S 3
+31, Ersatzfahrt für S      5,7,Replacement trip for S 5
+32, Ersatzfahrt für S      8@@Grund: Ärztliche Versorgung eines Fahrgastes,3,Replacement trip for S 8 @@ Reason: medical care for a passenger
+33, Fährt heute erst ab Aachen Hbf,1,Today only runs from Aachen Hbf
+34, Fährt heute erst ab Ansbach@@Grund: Türstörung,14,Only drives today from Ansbach @@ reason: door fault
+35, Fährt heute erst ab Ansbach@@Grund: Türstörung@@Gleiswechsel,7,Only runs today from Ansbach @@ reason: door fault @@ track change
+36, Fährt heute erst ab Bad Schandau,11,Only drives from Bad Schandau today
+37, Fährt heute erst ab Bad Schandau@@Grund: Streckensperrung,2,Only runs today from Bad Schandau @@ reason: line closure
+38, Fährt heute erst ab Bantorf@@Grund: Signalstörung,14,Only drives today from Bantorf @@ reason: signal disturbance
+39, Fährt heute erst ab Bantorf@@Grund: Verspätung aus vorheriger Fahrt,14,Only runs today from Bantorf @@ Reason: Delay from previous trip
+40, Fährt heute erst ab Basel Bad Bf,1,Today only runs from Basel Bad Bf
+41, Fährt heute erst ab Basel Bad Bf@@Grund: Technische Störung am Zug,6,Today only runs from Basel Bad Bf @@ Reason: Technical malfunction on the train
+42, Fährt heute erst ab Basel SBB@@Grund: Notarzteinsatz am Gleis,35,Today only runs from Basel SBB @@ reason: emergency doctor on the track
+43, Fährt heute erst ab Basel SBB@@Grund: Notarzteinsatz am Gleis@@Gleiswechsel,5,Today only runs from Basel SBB @@ reason: emergency doctor on the track @@ change of track
+44, Fährt heute erst ab Bonn Hbf@@Grund: Verspätung aus vorheriger Fahrt,2,Today only runs from Bonn Hbf @@ reason: delay due to previous trip
+45, Fährt heute erst ab Bramsche,11,Only leaves from Bramsche today
+46, Fährt heute erst ab Frankfurt-Rödelheim,1,Today only runs from Frankfurt-Rödelheim
+47, Fährt heute erst ab Freiburg(Breisgau) Hbf@@Grund: Technische Störung am Zug,3,Today only runs from Freiburg (Breisgau) Hbf @@ Reason: Technical malfunction on the train
+48, Fährt heute erst ab Hamburg Elbgaustraße,44,Today only runs from Hamburg Elbgaustrasse
+49, Fährt heute erst ab Hamburg Hbf,2,Today only runs from Hamburg Hbf
+50, Fährt heute erst ab Hamburg Hbf@@Grund: Signalstörung,2,Today only runs from Hamburg Hbf @@ Reason: signal disturbance
+51, Fährt heute erst ab Hamburg Hbf@@Grund: Verspätung aus vorheriger Fahrt,3,Today only runs from Hamburg Hbf @@ Reason: Delay due to previous trip
+52, Fährt heute erst ab Hamburg Hbf@@Grund: Verspätung eines vorausfahrenden Zuges,5,Today only runs from Hamburg Hbf @@ Reason: delay of a train in front
+53, Fährt heute erst ab Hamburg-Blankenese,10,Only runs from Hamburg-Blankenese today
+54, Fährt heute erst ab Hamburg-Eidelstedt,7,Only runs from Hamburg-Eidelstedt today
+55, Fährt heute erst ab Hannover Messe/Laatzen@@Grund: Verspätete Bereitstellung des Zuges,11,Today only runs from Hannover Messe / Laatzen @@ Reason: The train is late
+56, Fährt heute erst ab Hannover Messe/Laatzen@@Grund: Verspätete Bereitstellung des Zuges@@Gleiswechsel,1,Today only runs from Hannover Messe / Laatzen @@ reason: delayed provision of the train @@ change of track
+57, Fährt heute erst ab Hausham,2,Only leaves from Hausham today
+58, Fährt heute erst ab Höllriegelskreuth,17,Only leaves today from Höllriegelskreuth
+59, Fährt heute erst ab Karlsruhe Hbf@@Grund: Signalstörung,7,Today only runs from Karlsruhe Hbf @@ Reason: signal disturbance
+60, Fährt heute erst ab Kassel-Wilhelmshöhe@@Grund: Notarzteinsatz am Gleis,8,Today only runs from Kassel-Wilhelmshöhe @@ reason: emergency doctor on the track
+61, Fährt heute erst ab Liège-Guillemins@@Grund: Verspätung im Ausland,6,Today only runs from Liège-Guillemins @@ Reason: delay abroad
+62, Fährt heute erst ab Liège-Guillemins@@Grund: Verspätung im Ausland@@Gleiswechsel,2,Only runs today from Liège-Guillemins @@ reason: delay abroad @@ change of track
+63, Fährt heute erst ab Meißen,7,Only leaves from Meißen today
+64, Fährt heute erst ab Meißen@@Grund: Verspätung aus vorheriger Fahrt,23,Today only runs from Meißen @@ Reason: Delay from previous trip
+65, Fährt heute erst ab München Ost,1,Today only runs from Munich East
+66, Fährt heute erst ab München Ost@@Grund: Oberleitungsstörung,1,Only runs today from Munich East @@ reason: overhead line fault
+67, Fährt heute erst ab Neu-Edingen/Friedrichsfeld,29,Today only runs from Neu-Edingen / Friedrichsfeld
+68, Fährt heute erst ab Neu-Edingen/Friedrichsfeld@@Grund: Verspätung eines vorausfahrenden Zuges,24,Today only runs from Neu-Edingen / Friedrichsfeld @@ Reason: delay of a train in front
+69, Fährt heute erst ab Neu-Edingen/Friedrichsfeld@@Grund: Verzögerungen im Betriebsablauf,15,Today only runs from Neu-Edingen / Friedrichsfeld @@ Reason: Delays in the operational process
+70, Fährt heute erst ab Niedernhausen(Taunus)@@Gleiswechsel,1,Today only runs from Niedernhausen (Taunus) @@ track change
+71, Fährt heute erst ab Nürnberg Hbf,1,Today only runs from Nürnberg Hbf
+72, Fährt heute erst ab Nürnberg Hbf@@Grund: Verzögerungen im Betriebsablauf,2,Today only runs from Nürnberg Hbf @@ Reason: Delays in the operational process
+73, Fährt heute erst ab Pforzheim Hbf,3,Today only runs from Pforzheim Hbf
+74, Fährt heute erst ab Schliersee,8,Only leaves from Schliersee today
+75, Fährt heute erst ab Uelzen,1,Only leaves from Uelzen today
+76, Fährt heute erst ab Wabern(Bz Kassel),25,Only leaves today from Wabern (Bz Kassel)
+77, Fährt heute erst ab Wabern(Bz Kassel)@@Gleiswechsel,40,Today only runs from Wabern (Bz Kassel) @@ track change
+78, Fährt heute erst ab Weßling(Oberbay),10,Only sails today from Weßling (Oberbay)
+79, Fährt heute nur bis Bantorf@@Grund: Verspätung eines vorausfahrenden Zuges,20,Today only runs to Bantorf @@ reason: delay of a train in front
+80, Fährt heute nur bis Frankfurt-Rödelheim@@Grund: Personen im Gleis,1,Today only runs to Frankfurt-Rödelheim @@ Reason: people on the track
+81, Fährt heute nur bis Wolfsburg Hbf@@Grund: Notarzteinsatz am Gleis,3,Today only drives to Wolfsburg main station @@ reason: emergency doctor on the track
+82, Gleiswechsel,827,Track change
+83, Grund: Außerplanmäßige Geschwindigkeitsbeschränkung,9,Reason: unscheduled speed limit
+84, Grund: Außerplanmäßige Geschwindigkeitsbeschränkung@@Gleiswechsel,1,Reason: Unscheduled speed limit @@ track change
+85, Grund: Bauarbeiten,180,Reason: construction work
+86, Grund: Bauarbeiten@@Gleiswechsel,5,Reason: construction work @@ track change
+87, Grund: Behobene technische Störung am Zug,37,Reason: Fixed technical malfunction on the train
+88, Grund: Betätigen der Notbremse,7,Reason: application of the emergency brake
+89, Grund: Betätigen der Notbremse@@Gleiswechsel,5,Reason: Apply the emergency brake @@ track change
+90, Grund: Feuerwehreinsatz an der Strecke,14,Reason: fire service on the track
+91, Grund: Feuerwehreinsatz an der Strecke@@Gleiswechsel,1,Reason: fire service on the line @@ track change
+92, Grund: Notarzteinsatz am Gleis,95,Reason: emergency doctor on the track
+93, Grund: Notarzteinsatz am Gleis@@Gleiswechsel,14,Reason: emergency doctor on the track @@ track change
+94, Grund: Oberleitungsstörung,31,Reason: catenary fault
+95, Grund: Oberleitungsstörung@@Gleiswechsel,1,Reason: catenary fault @@ track change
+96, Grund: Personen im Gleis,401,Reason: people on the track
+97, Grund: Personen im Gleis@@Gleiswechsel,17,Reason: people in the track @@ track change
+98, Grund: Polizeiliche Ermittlung,291,Reason: police investigation
+99, Grund: Polizeiliche Ermittlung@@Gleiswechsel,6,Reason: Police investigation @@ track change
+100, Grund: Signalstörung,244,Reason: signal interference
+101, Grund: Signalstörung@@Gleiswechsel,41,Reason: signal disturbance @@ track change
+102, Grund: Stellwerksstörung /-ausfall,20,Reason: signal box failure / failure
+103, Grund: Streckensperrung,2,Reason: line closure
+104, Grund: Störung an einem Bahnübergang,146,Reason: disturbance at a level crossing
+105, Grund: Störung an einem Bahnübergang@@Gleiswechsel,12,Reason: disturbance at a level crossing @@ track change
+106, Grund: Technische Störung am Bahnhof,16,Reason: technical malfunction at the station
+107, Grund: Technische Störung am Zug,377,Reason: technical fault on the train
+108, Grund: Technische Störung am Zug@@Gleiswechsel,59,Reason: technical fault on the train @@ change of track
+109, Grund: Technische Störung an der Strecke,131,Reason: technical fault on the route
+110, Grund: Technische Störung an der Strecke@@Gleiswechsel,8,Reason: technical fault on the line @@ track change
+111, Grund: Technische Störung an einem anderen Zug,74,Reason: technical malfunction on another train
+112, Grund: Technische Störung an einem anderen Zug@@Gleiswechsel,64,Reason: technical fault on another train @@ track change
+113, Grund: Technische Störung an einem anderen Zug@@Grund: Verspätung aus vorheriger Fahrt,20,Reason: Technical malfunction on another train @@ Reason: Delay due to previous journey
+114, Grund: Technische Störung an einem anderen Zug@@Grund: Verspätung aus vorheriger Fahrt@@Gleiswechsel,2,Reason: Technical malfunction on another train @@ Reason: Delay due to previous journey @@ Change of track
+115, Grund: Technische Untersuchung am Zug,6,Reason: technical inspection on the train
+116, Grund: Türstörung,19,Reason: door failure
+117, Grund: Umgestürzter Baum im Gleis,27,Reason: fallen tree in the track
+118, Grund: Verspätete Bereitstellung des Zuges,83,Reason: delayed delivery of the train
+119, Grund: Verspätete Bereitstellung des Zuges@@Gleiswechsel,3,Reason: Delayed provision of the train @@ change of track
+120, Grund: Verspätung aus vorheriger Fahrt,752,Reason: delay due to previous trip
+121, Grund: Verspätung aus vorheriger Fahrt@@Gleiswechsel,31,Reason: delay due to previous journey @@ change of track
+122, Grund: Verspätung eines vorausfahrenden Zuges,2453,Reason: delay of a train in front
+123, Grund: Verspätung eines vorausfahrenden Zuges@@Gleiswechsel,85,Reason: delay of a train in front @@ track change
+124, Grund: Verspätung im Ausland,217,Reason: delay abroad
+125, Grund: Verspätung im Ausland@@Gleiswechsel,22,Reason: delay abroad @@ change of track
+126, Grund: Verzögerung beim Ein-/Ausstieg,428,Reason: delay in getting in / out
+127, Grund: Verzögerung beim Ein-/Ausstieg@@Gleiswechsel,1,Reason: delay in getting in / out @@ track change
+128, Grund: Verzögerungen im Betriebsablauf,458,Reason: delays in operations
+129, Grund: Verzögerungen im Betriebsablauf@@Gleiswechsel,37,Reason: delays in the operational process @@ track change
+130, Grund: Warten auf Fahrgäste aus einem Bus,3,Reason: waiting for passengers from a bus
+131, Grund: Warten auf Fahrgäste aus einem Bus@@Gleiswechsel,1,Reason: waiting for passengers from a bus @@ track change
+132, Grund: Warten auf Fahrgäste aus einem anderen Zug,402,Reason: waiting for passengers from another train
+133, Grund: Warten auf Fahrgäste aus einem anderen Zug@@Gleiswechsel,30,Reason: waiting for passengers from another train @@ track change
+134, Grund: Warten auf einen entgegenkommenden Zug,130,Reason: waiting for an oncoming train
+135, Grund: Warten auf freie Einfahrt,12,Reason: waiting for free entry
+136, Grund: Warten auf freie Einfahrt@@Gleiswechsel,1,Reason: waiting for free entry @@ track change
+137, Grund: Warten auf weitere Wagen,32,Reason: waiting for more cars
+138, Grund: Weichenstörung,7,Reason: switch failure
+139, Grund: Witterungsbedingte Störung,25,Reason: weather-related disturbance
+140, Grund: Zusätzlicher Halt zum Ein- /Ausstieg für Reisende,14,Reason: additional stop for boarding / alighting for travelers
+141, Grund: Ärztliche Versorgung eines Fahrgastes,85,Reason: medical care for a passenger
+142, Grund: Ärztliche Versorgung eines Fahrgastes@@Gleiswechsel,2,Reason: medical care for a passenger @@ track change
+143, Grund: Überholung,326,Reason: overhaul
+144, Grund: Überholung@@Gleiswechsel,18,Reason: overhaul @@ track change
+145, Sonderfahrt,27,Special transport
+146, Sonderfahrt@@Grund: Technische Störung an der Strecke,23,Special trip @@ Reason: Technical fault on the route
+147, Sonderfahrt@@Grund: Technische Störung an der Strecke@@Gleiswechsel,5,Special trip @@ reason: Technical fault on the line @@ track change
+148, Sonderfahrt@@Grund: Warten auf Fahrgäste aus einem anderen Zug,1,Special trip @@ reason: waiting for passengers from another train
+149, Änderung im Fahrtverlauf!,7,Change in the course of the journey!
+150, Änderung im Fahrtverlauf!@@Ersatzfahrt für ICE  974@@Grund: Polizeiliche Ermittlung,7,Change in the course of the trip! @@ Replacement trip for ICE 974 @@ Reason: Police investigation
+151, Änderung im Fahrtverlauf!@@Ersatzfahrt für ICE  974@@Grund: Verspätung aus vorheriger Fahrt,9,Change in the course of the trip! @@ Replacement trip for ICE 974 @@ Reason: delay due to previous trip
+152, Änderung im Fahrtverlauf!@@Ersatzfahrt für ICE  974@@Grund: Zusätzlicher Halt zum Ein- /Ausstieg für Reisende,7,Change in the course of the trip! @@ Replacement trip for ICE 974 @@ Reason: Additional stop for boarding / alighting for travelers
+153, Änderung im Fahrtverlauf!@@Fährt heute erst ab Bordesholm,1,Change in the course of the trip! @@ Today only leaves from Bordesholm
+154, Änderung im Fahrtverlauf!@@Fährt heute erst ab Bordesholm@@Gleiswechsel,1,Change in the course of the journey! @@ Today only runs from Bordesholm @@ change of track
+155, Änderung im Fahrtverlauf!@@Fährt heute erst ab Flintbek@@Grund: Verzögerungen im Betriebsablauf,4,Change in the course of the trip! @@ Today only runs from Flintbek @@ Reason: delays in the operational process
+156, Änderung im Fahrtverlauf!@@Fährt heute erst ab Hamburg-Altona(S)@@Grund: Polizeiliche Ermittlung,2,Change in the course of the trip! @@ Today only leaves from Hamburg-Altona (S) @@ Reason: Police investigation
+157, Änderung im Fahrtverlauf!@@Grund: Notarzteinsatz am Gleis,4,Change in the course of the trip! @@ Reason: emergency doctor on the track
+158, Änderung im Fahrtverlauf!@@Grund: Oberleitungsstörung,24,Change in the course of the trip! @@ Reason: catenary fault
+159, Änderung im Fahrtverlauf!@@Grund: Personen im Gleis,22,Change in the route! @@ Reason: people in the track
+160, Änderung im Fahrtverlauf!@@Grund: Polizeiliche Ermittlung,1,Change in the course of the trip! @@ Reason: Police investigation
+161, Änderung im Fahrtverlauf!@@Grund: Streckensperrung@@Gleiswechsel,4,Change in the route! @@ Reason: line closure @@ change of track
+162, Änderung im Fahrtverlauf!@@Grund: Technische Störung am Zug,37,Change in the route! @@ Reason: Technical malfunction on the train
+163, Änderung im Fahrtverlauf!@@Grund: Technische Störung am Zug@@Gleiswechsel,5,Change in the course of the journey! @@ Reason: Technical fault on the train @@ change of track
+164, Änderung im Fahrtverlauf!@@Grund: Technische Störung an der Strecke@@Gleiswechsel,1,Change in the course of the journey! @@ Reason: Technical fault on the route @@ change of track
+165, Änderung im Fahrtverlauf!@@Grund: Technische Störung an einem anderen Zug,35,Change in the route! @@ Reason: Technical malfunction on another train
+166, Änderung im Fahrtverlauf!@@Grund: Technische Störung an einem anderen Zug@@Gleiswechsel,1,Change in the route! @@ Reason: Technical fault on another train @@ change of track
+167, Änderung im Fahrtverlauf!@@Grund: Umleitung des Zuges,2,Change in the route! @@ Reason: diversion of the train
+168, Änderung im Fahrtverlauf!@@Grund: Verspätung eines vorausfahrenden Zuges,10,Change in the route! @@ Reason: delay of a train in front
+169, Änderung im Fahrtverlauf!@@Grund: Verzögerungen im Betriebsablauf,25,Change in the course of the trip! @@ Reason: delays in the operational process
+170, Änderung im Fahrtverlauf!@@Grund: Verzögerungen im Betriebsablauf@@Gleiswechsel,6,Change in the course of the journey! @@ Reason: delays in the operational process @@ track change
+171, Änderung im Fahrtverlauf!@@Grund: Zusätzlicher Halt zum Ein- /Ausstieg für Reisende,13,Change in the course of the trip! @@ Reason: Additional stop for boarding / alighting for travelers

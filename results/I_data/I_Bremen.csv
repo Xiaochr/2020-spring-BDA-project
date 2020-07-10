@@ -1,0 +1,9 @@
+,TAA,TA,TIN,TIR,TSI,TIM,TIRE,TIP,TIT,TID,TSC,TAc,Type
+22111, ,,ICE776,Frankfurt(Main)Hbf 17:14-Göttingen 19:01-Hannover Hbf 20:01-Bremen Hbf 21:03,8000050,arr,Frankfurt(Main)Hbf,3,21:03,20.06.19,Bremen%238000050,0,ICE
+22123, ,21:41,ICE609,Hamburg-Altona 20:30-Hamburg Dammtor 20:39-Hamburg Hbf 20:46-Hamburg-Harburg 20:57-Bremen Hbf 21:41,8000050,arr,Hamburg-Altona,8,21:41,20.06.19,Bremen%238000050,0,ICE
+22130, ,,ICE776,Bremen Hbf 21:06-Oldenburg(Oldb) 21:34,8000050,dep,Oldenburg(Oldb),3,21:06,20.06.19,Bremen%238000050,0,ICE
+22140, ,21:44,ICE609,Bremen Hbf 21:44-Diepholz 22:11-Osnabrück Hbf 22:36-Münster(Westf)Hbf 23:01-Gelsenkirchen Hbf 23:45-Essen Hbf 23:58-Duisburg Hbf 00:12-Düsseldorf Hbf 00:26-Köln Hbf 00:50,8000050,dep,Köln Hbf,8,21:44,20.06.19,Bremen%238000050,0,ICE
+22663, ,,ICE609,Hamburg-Altona 20:30-Hamburg Dammtor 20:39-Hamburg Hbf 20:46-Hamburg-Harburg 20:57-Bremen Hbf 21:41,8000050,arr,Hamburg-Altona,8,21:41,20.06.19,Bremen%238000050,0,ICE
+22769, ,,ICE609,Bremen Hbf 21:44-Diepholz 22:11-Osnabrück Hbf 22:36-Münster(Westf)Hbf 23:01-Gelsenkirchen Hbf 23:45-Essen Hbf 23:58-Duisburg Hbf 00:12-Düsseldorf Hbf 00:26-Köln Hbf 00:50,8000050,dep,Köln Hbf,8,21:44,20.06.19,Bremen%238000050,0,ICE
+25339, ,,ICE 1212,München Hbf 15:28-München-Pasing 15:36-Augsburg Hbf 16:03-Ulm Hbf 16:49-Stuttgart Hbf 17:51-Mannheim Hbf 18:36-Frankfurt(M) Flughafen Fernbf 19:09-Siegburg/Bonn 19:51-Köln Messe/Deutz Gl.11-12 20:13-Düsseldorf Hbf 20:33-Duisburg Hbf 20:47-Essen Hbf 20:59-Bochum Hbf 21:09-Dortmund Hbf 21:24-Münster(Westf)Hbf 21:59-Osnabrück Hbf 22:25-Bremen Hbf 23:17,8000050,arr,München Hbf,10,23:17,20.06.19,Bremen%238000050,0,ICE
+25356, ,,ICE 1212,Bremen Hbf 23:20-Hamburg-Harburg 00:03-Hamburg Hbf 00:15-Hamburg Dammtor 00:24-Hamburg-Altona 00:33,8000050,dep,Hamburg-Altona,10,23:20,20.06.19,Bremen%238000050,0,ICE
